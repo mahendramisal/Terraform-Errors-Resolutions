@@ -4,7 +4,19 @@ Collection of Terraform issues and errors occurred in DevOps environment
 
 Terraform is a powerful tool for infrastructure as code, but like any tool, it comes with its own set of challenges. Below is a list of common errors DevOps engineers encounter while using Terraform, along with potential causes and solutions.
 
+# 1. "Error: Invalid function argument"
+What it is:
+Terraform reports an error about an invalid function argument when you're using a function incorrectly. 
 
+Possible causes:
+
+Incorrect argument types or wrong number of arguments passed to the function.
+Using functions on incompatible types (e.g., applying a string function on an integer).
+
+How to fix it:
+
+Review the function documentation and ensure the correct syntax and argument types.
+Make sure the arguments passed to the function are of the correct type.
 
 
 # 2. "Error: Unsupported Terraform Core Version"
